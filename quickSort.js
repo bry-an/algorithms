@@ -20,7 +20,7 @@ const quickSort = arr => {
 console.log(quickSort([1, 6, 3, 7, 22, 8, 12]))
 
 /*
-Function takes an arr
+Function takes an array
 Necessary ending condition since it's recursive:
 if (arr <=1) return arr
 Take an array, split at pivot (convenient if it's first elem so can use with spread operator), 
