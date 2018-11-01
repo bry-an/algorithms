@@ -1,4 +1,3 @@
-
 insertionSort = arr => {
     for (let i = 1; i < arr.length; i++) {
         for (let j = 0; j < i; j++) {
@@ -24,4 +23,6 @@ Then iterate the first pointer and repeat.
 
 The value of the insertion sort (over bubble sort, eg) is that the relative placement of items is preserved. 
 
+this is good on smaller array where items are close to sorted
+Google's V8 uses quick sort when the array size is greater than 10; otherwise it uses insertion sort
 */
